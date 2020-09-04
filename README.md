@@ -1,5 +1,4 @@
-# app_worldee_test
-[worldee](https://worldee.com/) test application. 
+# app_worldee_test 
 ![alt text](https://www.worldee.com/images/logo/dark-horizontal.svg "worldee.com") 
 
 ## Getting Started
