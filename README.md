@@ -1,16 +1,21 @@
 # app_worldee_test
-
-A new worldee application.
+[worldee](https://worldee.com/) test application. 
+![alt text](https://www.worldee.com/images/logo/dark-horizontal.svg "worldee.com") 
 
 ## Getting Started
+This project is a starting point for a worldee application. Before you try to run this app you will need to install [Flutter](https://flutter.dev/) and some IDE e.g. [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/). 
 
-This project is a starting point for a Flutter application.
+## Prerequisites
+It does not really matter how you are going to solve this task, which libraries you will be using or which if any state management pattern. But for better perspective take a look at `flutter_control` [package](https://pub.dev/packages/flutter_control) which we are using in worldee app development.
 
-A few resources to get you started if this is your first Flutter project:
+## Test task 
+1. Checkout `f_task` branch 
+2. Create page as much similar as possible to [UI design](https://drive.google.com/file/d/1SD4mH6LHpWY7msarvgieB9gouXzGU91t/view?usp=sharing) 
+3. Try to implement some animantions e.g. moving line on filters or bottom bar, slivers,... 
+4. Connect page to proper test endpoints listed bellow 
+5. Implement search and layout change with given API 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Api endpoints 
+* `top-users` -> `GET` www.test.worldee.com/api/profiles/top 
+* `top-trips` -> `GET` www.test.worldee.com/api/trips/top 
+* `search-users` -> `GET` www.test.worldee.com/api/profiles   | ?name=(query) | &order=(asc,dsc) | &limit=(countOfResults) |
